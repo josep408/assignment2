@@ -196,6 +196,7 @@ $('#submit-btn').click(function () {
 	$('.results').addClass('show');
 	
 	if(total < 0) {
+		document.getElementById('firstname').innerHTML;
 		document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		console.log(document.getElementById('intro-bar').style.width);
 		document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
@@ -208,6 +209,7 @@ For introverts, to be alone with our thoughts is as restorative as sleeping, as 
 Introverted people are known for thinking things through before they speak, enjoying small, close groups of friends and one-on-one time. They get upset by unexpected changes or last-minute surprises.\
 		';
 	} else if(total > 0) {
+		document.getElementById('firstname').innerHTML;
 		document.getElementById('results').innerHTML = '<b>You are extroverted!</b><br><br>\
 		On the opposite side of the coin, Extroverts enjoy social situations and even seek them out since they enjoy being around people. In school, you can expect an extroverted child to enjoy working on a team project or in a study group rather than alone.\
 <br><br>\
@@ -215,6 +217,7 @@ Introverted people are known for thinking things through before they speak, enjo
 \
 When among people, thry make eye contact, smile, maybe chat if there’s an opportunity. As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.;'
 	} else {
+		document.getElementById('firstname').innerHTML;
 		document.getElementById('results').innerHTML = '<b>You are ambiverted!</b><br><br>\
 		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
 <br><br>\
